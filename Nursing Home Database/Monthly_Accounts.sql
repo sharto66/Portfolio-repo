@@ -1,0 +1,12 @@
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('JAN', '2013',  40000,  5800,  600,  33600); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('FEB', '2013',  385000,  5400,  600,  32500); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('MAR', '2013',  49000,  6300,  800,  41900); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('APR', '2013',  29000,  3900,  620,  24480); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('MAY', '2013',  36000,  4950,  390,  30660); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('JUN', '2013',  51600,  6700,  690,  44210); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('JUL', '2013',  49600,  6200,  650,  42750); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('AUG', '2013',  36000,  6700,  460,  28840); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('SEP', '2013',  61200,  7390,  800,  53010); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('OCT', '2013',  39200,  4310,  390,  34500); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('NOV', '2013',  29900,  5450,  600,  23850); 
+INSERT INTO Monthly_Accounts(Month, Year, Gross_Payments, VAT_Paid, TAX_Paid, Profit) VALUES('DEC', '2013',  21360,  3970,  490,  16900);

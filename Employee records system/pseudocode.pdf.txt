@@ -1,0 +1,51 @@
+Programming with Persistent Data Assignment
+Employee Database Pseudocode:
+
+PROGRAM: Employee Database using files (The Main)
+START;
+Read A;
+IF (A == 1)
+	AddEmployee();
+IF (A == 2)
+	DeleteEmployee();
+IF (A == 3)
+	ListEmployee();
+IF (A == 4)
+	CompactRecord();
+IF (A == 5)
+	Return;
+END;
+
+===============================================
+
+PROGRAM: AddEmployee()
+START; 
+Read Employee Record;
+Total Records++;
+Write to file;
+END;
+
+===================================================
+
+PROGRAM: DeleteEmployee()
+START;
+Read Deleted Employee;
+IF (Employee == Deleted Employee)
+	Employee[0] = *;
+	DeletedRecords++;
+END IF;
+END;
+
+
+================================================
+PROGRAM: CompactRecord()
+START;
+WHILE (filestream == 1)
+       IF ( Employee[0] != *)
+		Write Employee to file;
+		
+	END IF;
+END WHILE;
+END;
+
+

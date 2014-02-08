@@ -1,0 +1,6 @@
+C:\Users\Shartnett\Dropbox\DT228 Computer Science\Year2\Object Orientated Programming\DANI_Assignment\DANI_Assignment\bin\Debug\DANI_Assignment.exe.config
+C:\Users\Shartnett\Dropbox\DT228 Computer Science\Year2\Object Orientated Programming\DANI_Assignment\DANI_Assignment\bin\Debug\DANI_Assignment.exe
+C:\Users\Shartnett\Dropbox\DT228 Computer Science\Year2\Object Orientated Programming\DANI_Assignment\DANI_Assignment\bin\Debug\DANI_Assignment.pdb
+C:\Users\Shartnett\Dropbox\DT228 Computer Science\Year2\Object Orientated Programming\DANI_Assignment\DANI_Assignment\obj\Debug\DANI_Assignment.csprojResolveAssemblyReference.cache
+C:\Users\Shartnett\Dropbox\DT228 Computer Science\Year2\Object Orientated Programming\DANI_Assignment\DANI_Assignment\obj\Debug\DANI_Assignment.exe
+C:\Users\Shartnett\Dropbox\DT228 Computer Science\Year2\Object Orientated Programming\DANI_Assignment\DANI_Assignment\obj\Debug\DANI_Assignment.pdb

@@ -1,0 +1,15 @@
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (12710, 'Jello. Lots of Jello', 'Rice cakes', 1700);
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (23631, 'Fish and Pultry', 'Carbohydrates',  2300 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (29262, 'Jumbo Sandwiches', 'Cinnamon',  2750);
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (10243, 'Olives, mustard, lettuce, honey, coffee', 'Raspberries',  1200 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (20594, 'Lollypops', 'Red meat',  2300 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (24335, 'Jello', 'Cucumber, Peppers, Melons',  2000 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (17386, 'Dry toast only', 'All other Foods',  1700 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (11947, 'Foods rich in fiber, green tea', 'Sugar',  2400 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (27042, 'Dairy', '',  2000 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (17033, 'Fish fingers, chicken nuggets', 'Milkshake',  2500 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (12440, 'Gummy bears', 'Gummy worms',  2200 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (12390, 'Starchy Foods', 'Fizzy drinks',  2000 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (26206, 'Pork sausages', 'Nuts',  2400 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (12815, 'Red meat, dairy, eggs', 'Fried Foods',  2700 );
+INSERT INTO  Dietary_Requirement  ( Patient_ID , Foods_Required , Foods_Forbidden , Calorie_Intake ) VALUES (13111, '', 'Dairy, gluten',  2100 );
