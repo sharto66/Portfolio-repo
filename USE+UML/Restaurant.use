@@ -1,0 +1,50 @@
+model Restaurant
+
+--classes
+
+class Booking
+attributes
+	name : String
+	numOfPeople : Integer
+	date : String
+end
+
+class Table
+attributes
+	id : Integer
+	capacity : Integer
+operations
+	assignTable(b : Booking)
+end
+
+class Customer
+attributes
+	name : String
+	phone : Integer
+end
+
+--associations
+
+association Seated between
+	Booking[1] role sits
+	Table[1..*] role tables
+end
+
+association Books between
+	Customer[1] role reserves
+	Booking[1] role reserved
+end
+
+constraints
+
+context Table::assignTable(b : Booking)
+	pre assignPre1: b.isDefined()
+	pre assignPre2: sits->excludes(b)
+	pre assignPre3: b.numOfPeople <= self.capacity
+	post assignPost: sits->includes(b)
+	
+context Customer
+	inv OneBookingPerCustomer:
+		self.reserved->size <= 1
+	inv SameNameAsBooking:
+		self.reserved.name = self.name
