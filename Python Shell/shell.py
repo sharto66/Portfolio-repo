@@ -1,4 +1,3 @@
-# Very basic Posix shell
 import re
 import os
 import sys
@@ -8,14 +7,6 @@ import glob
 
 prompt = "sh>> "
 
-def copyright():
-  sys.stderr.write("""
-Copyright (C) 2012-13 Brian Gillespie
-This program comes with ABSOLUTELY NO WARRANTY; This is free
-software, and you are welcome to redistribute it under certain
-conditions; Type "copyright" or "license" for more information.
-""" + "\n")
-  return True
 # Parsed splitting of input into constituent arguments
 def parse(cmd):
   return shlex.split(cmd)
@@ -113,7 +104,6 @@ def call(argv):
       execute(cmd, argv)
     else:
       for dir in os.getenv('PATH').split(':'):
-        # Keep trying each directory in PATH until we find it
         execute(dir + '/' + cmd, argv)
 
     # If we get here then execution has failed
@@ -124,12 +114,10 @@ def call(argv):
       os.wait()
 
 # Read, print, eval, loop (REPL)
-copyright()
 while True:
   try:
     cmd = input(prompt).strip()
     if cmd == "":
-      # Empty command so just prompt again
       pass
     elif cmd == "exit":
       # Exit the shell
