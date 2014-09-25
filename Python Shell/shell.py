@@ -11,13 +11,6 @@ prompt = "sh>> "
 def parse(cmd):
   return shlex.split(cmd)
 
-def internal(argv):
-  cmd = argv[0]
-  if cmd == "copyright":
-    return copyright()
-
-  return False
-
 # Execute an execute command (i.e. run a  program on disk)
 # If this succeeds it never returns
 def execute(cmd, argv):
@@ -124,8 +117,7 @@ while True:
       break
     else:
       argv = parse(cmd)
-      if not internal(argv):
-        call(argv)
+      call(argv)
   except EOFError:
       # User has pressed Ctrl-D
     break
