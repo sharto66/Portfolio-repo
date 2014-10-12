@@ -13,26 +13,27 @@ namespace ConsoleApplication4
         {
             string pal;
             List<string> results = new List<string>();
-            int count;
+            int count = 0;
             bool letterMatch = false;
             int k, l;
 
-            for (int i = 0; i < str.Length-2; i++)
+            for (int i = 0; i < str.Length-1; i++)
             {
-                for (int j = 1; j < (str.Length-1)-i; j++)
+                for (int j = 1; j < (str.Length+1)-i; j++)
                 {
                     pal = str.Substring(i, j);
-                    Console.WriteLine(pal);
+                    //Console.WriteLine(pal);
+                    letterMatch = false;
 
-                    if (pal.Length == 2 && pal[0] == pal[1])
+                    if (pal.Length == 2 && pal[0] == pal[1] || pal.Length == 1)
                     {
                         letterMatch = true;
                     }
-                    else
+                    else if(pal.Length % 2 != 0)
                     {
                         l = pal.Length-1;
                         k = 0;
-                        while(k < pal.Length-1 / 2 && l > pal.Length/2)
+                        while(k < l / 2 && l > k)
                         {
                             if (pal[k] == pal[l])
                             {
@@ -49,11 +50,12 @@ namespace ConsoleApplication4
                     }
                     if(!results.Contains(pal) && letterMatch == true)
                     {
+						Console.WriteLine(pal);
                         results.Add(pal);
                     }
                 }//end j for
             }//end i for
-            count = results.Capacity;
+            count = results.Count;
             return count;
         }
 
