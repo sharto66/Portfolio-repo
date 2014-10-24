@@ -54,7 +54,7 @@ namespace ConsoleApplication4
                         results.Add(pal);
                     }
                 }//end j for
-            }//end i for
+            }//end i for 
             count = results.Count;
             return count;
         }
